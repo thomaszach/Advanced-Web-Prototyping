@@ -64,4 +64,12 @@ $("#chatPopover").popover({
      // Show the badge
     $("#cartItems").show();
   });
-    
+    // Badge Animation
+  $('h2').click(function () {
+    $(this).addClass('swap');
+  });
+  //Add To Cart animation
+  $('#addToCart').click(function () {
+    $(this).addClass('puffOut');
+  });
+});
